@@ -1,0 +1,11 @@
+[package]
+name = "splunk-cim"
+version = "0.1.0"
+authors = ["Insanitybit <insanitybit@gmail.com>"]
+edition = "2018"
+description = "Type definitions and serialization for Splunk's Common Information Model"
+license = "Apache 2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
